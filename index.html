@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Uploader et regarder des vidéos</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Uploader et regarder des vidéos</h1>
+	<form method="post" enctype="multipart/form-data" action="upload.php">
+		<label for="video-input">Sélectionnez une vidéo:</label>
+		<input type="file" id="video-input" name="video">
+		<button type="submit" name="submit">Upload</button>
+	</form>
+	<div id="video-container" class="videos"></div>
+	<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* Style du formulaire */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+/* Style des vidéos */
+#video-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
